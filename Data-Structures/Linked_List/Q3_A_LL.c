@@ -111,7 +111,7 @@ void moveOddItemsToBack(LinkedList *ll)
 	prev = NULL;
 	count = ll->size;
 	
-	for (size_t i = 0; i < count; i++)
+	for (int i = 0; i < count; i++)
 	{
 		if (cur->item % 2 == 0)
 		{
