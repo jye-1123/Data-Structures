@@ -93,10 +93,8 @@ int insertSortedLL(LinkedList *ll, int item)
 	
 	/* add your code here */
 
-	ListNode *cur;
+	ListNode *cur = ll->head;
 	int index = 0;
-
-	cur = ll -> head;
 
 	while (cur != NULL && cur->item < item)
 	{
@@ -107,7 +105,6 @@ int insertSortedLL(LinkedList *ll, int item)
 		
 		cur = cur->next;
 		index++;
-			
 	}
 	
 	
