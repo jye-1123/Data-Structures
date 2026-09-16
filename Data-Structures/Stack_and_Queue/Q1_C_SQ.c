@@ -122,7 +122,7 @@ void createQueueFromLinkedList(LinkedList *ll, Queue *q)
 		return;
 	}
 	
-	ListNode *cur = ll->head;
+	ListNode *cur = q->ll.head;
 
 	for (int i = 0; i < ll->size; i++)
 	{
