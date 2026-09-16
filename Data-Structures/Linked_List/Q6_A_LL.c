@@ -116,7 +116,7 @@ int moveMaxToFront(ListNode **ptrHead)
 		
 	}
 
-	if ((*ptrHead)->item == MaxVal)
+	if ((*ptrHead)->item == MaxNode->item)
 	{
 		return 0;
 	}
